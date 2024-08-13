@@ -1,0 +1,178 @@
+.banner {
+    position: relative;
+    background-image: url("../../public/image/Blog Slider.png");
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    /* width: 100vw; */
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .banner-content {
+    margin-top: 30vh;
+    margin-left: 50px;
+  }
+  
+  .banner-content .badge {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .banner-content h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  
+  .banner-content p {
+    max-width: 600px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  .nav-bar {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    width: 97.3%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .banner-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    width: 50vw;
+  }
+  
+  .menu a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .icons {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .social-icons {
+    margin: 4px 20px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Media Queries for Responsiveness */
+  
+  @media (max-width: 1024px) {
+    .banner-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .banner-content p {
+      font-size: 13px;
+    }
+  
+    .logo {
+      font-size: 20px;
+      width: 60vw;
+    }
+  
+    .menu a {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner-content {
+      margin-left: 20px;
+      margin-top: 20vh;
+    }
+  
+    .banner-content h1 {
+      font-size: 2rem;
+    }
+  
+    .banner-content p {
+      font-size: 12px;
+      max-width: 90%;
+    }
+  
+    .nav-bar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+    }
+  
+    .logo {
+      font-size: 18px;
+      width: 100%;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+  
+    .menu a {
+      font-size: 12px;
+      margin: 0 10px;
+    }
+  
+    .social-icons {
+      justify-content: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .banner-content {
+      margin-left: 10px;
+      margin-top: 15vh;
+    }
+  
+    .banner-content h1 {
+      font-size: 1.5rem;
+    }
+  
+    .banner-content p {
+      font-size: 12px;
+    }
+  
+    .nav-bar {
+      flex-direction: column;
+      padding: 5px;
+    }
+  
+    .logo {
+      font-size: 16px;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  
+    .menu {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu a {
+      font-size: 12px;
+      margin: 5px 0;
+    }
+  
+    .social-icons {
+      justify-content: center;
+      font-size: 16px;
+    }
+  }
+  
