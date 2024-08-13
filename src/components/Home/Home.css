@@ -1,0 +1,141 @@
+.popular-topics {
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.heading h2 {
+    font-size: 2rem;
+}
+
+.categories {
+    display: flex;
+    gap: 15px;
+}
+
+.category {
+    cursor: pointer;
+    font-size: 14px;
+    color: #888;
+    padding: 5px;
+}
+
+.category.active, .category:hover {
+    color: #000;
+    font-weight: bold;
+}
+
+.view-all {
+    font-size: 14px;
+    color: #888;
+    text-decoration: none;
+}
+
+.view-all:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.topics-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.topic-card {
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.topic-image {
+    position: relative;
+}
+
+.topic-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.category-label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.topic-content {
+    padding: 20px;
+}
+
+.date {
+    color: #aaa;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.topic-content h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+.topic-content p {
+    font-size: 14px;
+    color: #555;
+}
+.featured-banner {
+    position: relative;
+    background-image: url('image/Image.png'); /* Replace with the actual image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Adjust the height as needed */
+    /* width: 100vw; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.banner-content-fashion{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.category-label-fashion{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.date {
+    margin-top: 20px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
